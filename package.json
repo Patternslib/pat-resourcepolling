@@ -1,6 +1,6 @@
 {
-    "name": "pat-resourcepolling",
-    "version": "1.0.0",
+    "name": "@patternslib/pat-resourcepolling",
+    "version": "0.9.0",
     "description": "A pattern for periodically checking resource availability",
     "license": "MIT",
     "main": "./src/pat-resourcepolling.js",
@@ -69,9 +69,9 @@
         "name": "Syslab GesmbH",
         "email": "dev@syslab.com"
     },
-    "homepage": "https://github.com/ploneintranet/pat-resourcepolling",
+    "homepage": "https://github.com/patternslib/pat-resourcepolling",
     "repository": {
         "type": "git",
-        "url": "https://github.com/ploneintranet/pat-resourcepolling.git"
+        "url": "https://github.com/patternslib/pat-resourcepolling.git"
     }
 }
