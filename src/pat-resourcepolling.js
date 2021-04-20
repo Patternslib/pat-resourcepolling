@@ -11,19 +11,19 @@ export default Base.extend({
         let timer = null;
         let interval = 1000;
 
-        image.onload = function () {
+        image.onload = () => {
             console.log("Image found");
             this.$el.replaceWith(image);
             if (timer) {
                 window.clearInterval(timer);
             }
         };
-        image.onerror = function () {
+        image.onerror = () => {
             console.log("Image not found");
             if (timer) {
                 window.clearInterval(timer);
             }
-            timer = window.setInterval(function () {
+            timer = window.setInterval(() => {
                 console.log("sending the request again");
                 this.el.src = "spinner.gif";
                 image.src = src;
