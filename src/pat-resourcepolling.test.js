@@ -6,7 +6,7 @@ describe("pat-resourcepolling", () => {
         document.body.innerHTML = "";
     });
 
-    it("is initialized correctly", async (done) => {
+    it("is initialized correctly", async () => {
         document.body.innerHTML = `
             <img src="hello-ok.png" class="pat-resourcepolling" />
         `;
@@ -15,7 +15,5 @@ describe("pat-resourcepolling", () => {
 
         // Dummy test, just tests for not throwing an error.
         expect(() => pattern.init(el)).not.toThrow(Error);
-
-        done();
     });
 });
