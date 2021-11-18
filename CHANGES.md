@@ -1,3 +1,20 @@
+## [2.0.0](https://github.com/patternslib/pat-resourcepolling/compare/1.1.0...2.0.0) (2021-11-18)
+
+
+### Breaking Changes
+
+* Upgrade to Webpack 5. ([b6ca354](https://github.com/patternslib/pat-resourcepolling/commit/b6ca3541cab10bb1f17395f2f8740fa635ed4ae6))
+
+
+
+### Maintenance
+
+* **build:** Extend Patternslib release-it config file. ([9e98a4e](https://github.com/patternslib/pat-resourcepolling/commit/9e98a4edffda31badc3e82316b6a20c9b73d6fd1))
+
+* **build:** Release on GitHub releases. ([d8d0e79](https://github.com/patternslib/pat-resourcepolling/commit/d8d0e79ca492e4ba288894d4aec0552c160148e3))
+
+* Upgrade up to minor versions. ([7233fd9](https://github.com/patternslib/pat-resourcepolling/commit/7233fd94a3c3500f50a845fbba01792c113b9a2b))
+
 ## [1.1.0](https://github.com/patternslib/pat-resourcepolling/compare/1.0.1...1.1.0) (2021-06-15)
 
 
