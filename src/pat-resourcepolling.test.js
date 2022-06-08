@@ -1,4 +1,3 @@
-import "regenerator-runtime/runtime"; // needed for ``await`` support
 import pattern from "./pat-resourcepolling";
 
 describe("pat-resourcepolling", () => {
