@@ -1,6 +1,6 @@
 {
     "name": "@patternslib/pat-resourcepolling",
-    "version": "2.0.0",
+    "version": "3.0.0-alpha.0",
     "description": "A pattern for periodically checking resource availability",
     "license": "MIT",
     "main": "./src/pat-resourcepolling.js",
