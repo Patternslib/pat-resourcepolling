@@ -2,6 +2,16 @@
 
 
 
+## [3.0.0](https://github.com/patternslib/pat-resourcepolling/compare/3.0.0-alpha.0...3.0.0) (2022-06-28)
+
+
+### Maintenance
+
+
+* @patternslib/patternslib needs to be installed. Adding to devDependencies to avoid version clashes with other packages depending on it. ([ab973b4](https://github.com/patternslib/pat-resourcepolling/commit/ab973b446e5ffb2a3e40137dc0b82e43468d1ab1))
+
+* Upgrade to @patternslib/dev 2.2.0 and adapt module federation config. ([14003bd](https://github.com/patternslib/pat-resourcepolling/commit/14003bd63fa4f313d07d22f55289d983969e6c91))
+
 ## [3.0.0-alpha.0](https://github.com/patternslib/pat-resourcepolling/compare/2.0.0...3.0.0-alpha.0) (2022-06-15)
 
 
