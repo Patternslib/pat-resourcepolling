@@ -4,12 +4,12 @@
     "description": "A pattern for periodically checking resource availability",
     "license": "MIT",
     "main": "./src/pat-resourcepolling.js",
+    "packageManager": "pnpm@12.16.1",
     "dependencies": {
-        "jquery": "^3.6.0"
+        "@patternslib/patternslib": "9.11.1"
     },
     "devDependencies": {
-        "@patternslib/dev": "^2.2.0",
-        "@patternslib/patternslib": "*"
+        "@patternslib/dev": "^4.4.0"
     },
     "scripts": {
         "start": "NODE_ENV=development webpack serve --config webpack.config.js",
